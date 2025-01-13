@@ -1,0 +1,34 @@
+.curve{
+    svg, .background{
+        position: fixed;
+        height: calc(100vh + 600px);
+        width: 100vw;
+        pointer-events: none;
+        left: 0;
+        top: 0;
+        z-index: 100;
+     
+    }
+    .background{
+        background-color: #bde4d2;
+        transition: opacity 0s linear 0.1s;
+    }
+    .route{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        color: rgb(0, 0, 0);
+        font-size: 46px;
+        z-index: 3;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 101;
+        font-weight: 600;
+        font-family: 'Inter Tight', sans-serif;
+        font-style: 200px;
+    }
+
+    path {
+        fill: #bde4d2
+    }
+}
